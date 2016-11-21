@@ -1,8 +1,187 @@
----
-layout: default
-title: Alexis Lui, Horrible Cop
----
-<div class="blurb">
-	<h1>Hi there, I'm Alexis Lui!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Alexis Lui</title>
+	
+	<!-- css -->
+	<link rel="stylesheet" href="main.css">
+	
+	<!-- favicon -->
+    <link rel="shortcut icon" href="assets/penguin.png" type="image/x-icon" />
+	
+	<!-- GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500,500i" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- Landing Page -->
+	
+	<div id="home_img">
+		<div id="banner">
+			<p><a onclick="smoothScroll('about');return false" href="#about" >Alexis Lui</a></p>
+			<div>
+				<div><a href="http://codepen.io/alexis-l8/" target="_blank"><img src="assets/codepen.png" style="width:60px;height:60px;"></a></div>
+				<div><a href="https://github.com/alexis-l8" target="_blank"><img src="assets/github.png" style="width:60px;height:60px;"></a></div>
+				<div><a href="https://www.freecodecamp.com/alexis-l8" target="_blank"><img src="assets/fcc.png" style="width:80px;height:80px"></a></div>
+				<div><a href="https://uk.linkedin.com/in/alexisluiccaf" target="_blank"><img src="assets/linkedin.png" style="width:60px;height:60px"></a></div>
+				<div><a href="https://www.codewars.com/users/alexis-l8" target="_blank"><img src="assets/codewars.png" style="width:60px;height:60px"></a></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Side Bar -->
+	<div id="background">	
+		<div id="sidebar">
+			<nav>
+				<ul>
+					<li><a onclick="smoothScroll('about');return false" href="#about" >ABOUT</a></li>
+					<li><a onclick="smoothScroll('cv');return false" href="#cv">CV</a></li>
+					<li><a onclick="smoothScroll('portfolio');return false" href="#portfolio">PORTFOLIO</a></li>
+					<li><a onclick="smoothScroll('contact');return false" href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	
+	<!-- Home Button -->
+	
+		<div id="home_button">
+			<p> <a onclick="smoothScroll('home_img');return false" href="#home_img" >^ Take Me Home</a></p>
+		</div>	
+		
+	<!-- Sections -->
+	<!-- About Me Section -->
+		<div id="rightside">
+			<section class="sections" id="about">
+				<h2> ABOUT </h2>
+					<div id="about_container">
+						<figure class="about_figures">
+							<img class="figures_img" src="assets/lil_a.png">
+							<div class="overlay">
+								<h3 class="overlay_title">Little Alexis</h3>
+								<p class="overlay_content">I was born in South East London, 05/01/1992. And no, I didn't pursue my God given talent as a model.</p>
+							</div>
+						</figure>
+						<figure class="about_figures">
+							<img class="figures_img" src="assets/grad.jpg">
+							<div class="overlay">
+								<h3 class="overlay_title">All Grown Up</h3>
+								<p class="overlay_content">Skip forward 21 years and I graduated from Exeter University with a First in Economics and Finance. My parents were over the moon but I was ready to take on the world.</p>
+							</div>
+						</figure>
+						<figure class="about_figures">
+							<img class="figures_img" src="assets/nature.jpg">
+							<div class="overlay">
+								<h3 class="overlay_title">Nature <3</h3>
+								<p class="overlay_content">I spent 5 years in Devon and learned to appreciate the beauty of nature. Look, that's me kicking sand to prove it.</p>
+							</div>
+						</figure>
+						<figure class="about_figures">
+							<img class="figures_img" src="assets/running.jpg">
+							<div class="overlay">
+								<h3 class="overlay_title">Running</h3>
+								<p class="overlay_content">I never liked cross-country in school but somehow I now run twice a week. This is me rushing for the finish line in a half marathon to get under 2 hours!</p>
+							</div>
+						</figure>
+						<figure class="about_figures">
+							<img class="figures_img" src="assets/burger.jpg">
+							<div class="overlay">
+								<h3 class="overlay_title">Food & Cooking</h3>
+								<p class="overlay_content">I love eating good food but I also really enjoy cooking it too! I'm better at one than the other though...</p>
+							</div>
+						</figure>
+						<figure class="about_figures">
+							<img class="figures_img" src="assets/squash.jpg">
+							<div class="overlay">
+								<h3 class="overlay_title">Squash</h3>
+								<p class="overlay_content">I've been playing squash on and off for 10 years now. It's the best sport on the planet! </p>
+							</div>
+						</figure>
+					</div>
+			</section>
+			
+	<!-- CV Section -->		
+			
+			<section class="sections" id="cv">
+				<h2> CV </h2>
+				<div id="cv_container" class="down">
+					<div id="cv_slider">
+						<img class="cv_slides" src="assets/cv/cc_ad.jpg">
+						<p class="cv_slides text">I joined the Crowdcube as an Investment Analyst straight after university as team member #13</p>
+						<img class="cv_slides" src="assets/cv/cc_13.jpg">
+						<p class="cv_slides text">I ran my first half marathon. I'm smiling in the next photo so it must have been before the race</p>
+						<img class="cv_slides" src="assets/cv/cc_early.jpg">
+						<p class="cv_slides text">We were a surprisingly sporty bunch and got top place in rugby in the Exeter Business Games</p>
+						<img class="cv_slides" src="assets/cv/cc_rugby.jpg">
+						<p class="cv_slides text">After 2 years of fun at Crowdcube, I then moved over to the Cambridge Centre for Alternative Finance</p>
+						<img class="cv_slides" src="assets/cv/cam_scene.jpg">
+						<p class="cv_slides text">The team were great and super smart!</p>
+						<img class="cv_slides" src="assets/cv/cam_team.jpg">
+						<p class="cv_slides text">I did lots there but a highlight was speaking in Austria to an audience of 300+ people</p>
+						<img class="cv_slides" src="assets/cv/cam_austria.jpg">	
+						
+					</div>	
+				</div>
+					<a id="cv_left_click" onclick="leftrightslider(-1)">&#10094;</a>
+					<a id="cv_right_click" onclick="leftrightslider(1)">&#10095;</a>
+			</section >
+			
+	<!-- Portfolio Section -->		
+			
+			<section class="sections" id="portfolio">
+				<h2> PORTFOLIO </h2>
+				<div id="port_container">
+					<figure class="figures">
+						<img class="figures_img" src="assets/quote.jpg">
+						<div class="overlay">
+							<h3 class="overlay_title">Random Quote Machine</h3>
+							<p class="overlay_content">Coming Soon...</p>
+						</div>
+					</figure>
+					<figure class="figures">
+						<img class="figures_img" src="assets/weather.jpg">
+						<a href="http://codepen.io/alexis-l8/full/VmeNqw/" target="_blank"><div class="overlay">
+							<h3 class="overlay_title">Local Weather</h3>
+							<p class="overlay_content">This app connects with the Open Weather API to give you the weather in your current location using your longitudinal and latitudinal data.</p>
+						</div></a>
+					</figure>
+					<figure class="figures">
+						<img class="figures_img" src="assets/wiki.jpg">
+						<a href="http://codepen.io/alexis-l8/full/ObMrwR/" target="_blank"><div class="overlay">
+							<h3 class="overlay_title">Wikipedia Viewer</h3>
+							<p class="overlay_content">This app utilises the Wikipedia API to allow you to search for Wikipedia entries or generate a random one.</p>
+						</div></a>
+					</figure>
+					<figure class="figures">
+						<img class="figures_img" src="assets/twitch.jpg">
+						<div class="overlay">
+							<h3 class="overlay_title">Twitch API</h3>
+							<p class="overlay_content">Coming Soon...</p>
+						</div>
+					</figure>
+				</div>
+			</section>
+			
+	<!-- Contact Section -->			
+			
+			<footer class="sections" id="contact">
+				<h2> CONTACT </h2>
+				<div id="vid_container">
+					<iframe id="vim_video" src="https://player.vimeo.com/video/191317938" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				
+					<div id="contact">
+						<h4> Say Hello! </h4>
+						<p>Gitter: @alexis-l8</p>
+					</div>
+				</div>	
+			</footer>
+		
+		</div>
+	</div>
+
+	<!-- javascript -->
+    <script src="javascript.js"></script>
+	
+</body>
+</html>
