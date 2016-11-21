@@ -1,20 +1,20 @@
 // CV SLIDER
 
 var sliderIndex = 1;		
-	moveslider(sliderIndex);
+	moveslider(sliderIndex);		// initiates the function
 
 function leftrightslider(n) {
-	moveslider(sliderIndex += n);		
+	moveslider(sliderIndex += n);		// reacts to left and right press of slider buttons
 }
 
 function moveslider(n) {
 	var x = document.getElementsByClassName("cv_slides");
-	if (sliderIndex  > x.length) {sliderIndex = 1};		
-	if (sliderIndex  < 1) {sliderIndex = x.length};		
+	if (sliderIndex  > x.length) {sliderIndex = 1};		// starts from beginning if exceeds length
+	if (sliderIndex  < 1) {sliderIndex = x.length};		// starts from end if goes below 1
 	for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";			
+		x[i].style.display = "none";			// hides all images immediately and every time
 	}
-	x[sliderIndex-1].style.display = "block";		
+	x[sliderIndex-1].style.display = "block";		// shows the image according to sliderIndex
 }
 
 // SMOOTH SCROLLING - Pure Javascript - Source: http://web.archive.org/web/20140103045600/http://www.itnewb.com/tutorial/Creating-the-Smooth-Scroll-Effect-with-JavaScript 
